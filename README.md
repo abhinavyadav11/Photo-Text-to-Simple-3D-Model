@@ -26,12 +26,8 @@ python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-2. Run with a text prompt:
-
-```bash
+# Run with a text prompt:
 python main.py --text "a small red toy truck"
 
-3. Run with an image input:
-
-```bash
+# Run with an image input:
 python main.py --image examples/input_image.jpg
