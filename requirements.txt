@@ -1,0 +1,8 @@
+torch
+shap-e
+rembg
+Pillow
+numpy
+matplotlib
+opencv-python
+pyrender
