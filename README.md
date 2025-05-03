@@ -23,7 +23,7 @@ It uses OpenAI’s Shap-E model and other open-source libraries.
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+source venv/bin/activate 
 pip install -r requirements.txt
 
 # Run with a text prompt:
