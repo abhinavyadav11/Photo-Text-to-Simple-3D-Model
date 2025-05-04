@@ -21,6 +21,9 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+#Install shap-e
+pip install git+https://github.com/openai/shap-e.git
 ```
 
 ## 🚀 Usage
