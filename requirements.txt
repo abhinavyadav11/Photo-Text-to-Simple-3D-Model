@@ -1,8 +1,11 @@
 torch
-shap-e
+transformers
 rembg
 Pillow
 numpy
 matplotlib
 opencv-python
 pyrender
+pyyaml
+ipywidgets
+onnxruntime
