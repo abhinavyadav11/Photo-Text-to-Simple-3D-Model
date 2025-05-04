@@ -37,14 +37,11 @@ python main.py --image path/to/your/image.jpg
 ## 🗂 Output
 Saved to the outputs/ folder:
 
-generated_model_0.obj
-
-generated_model_0.ply
-
-cleaned_image.png (background removed image)
+- generated_model_0.obj
+- generated_model_0.ply
+- cleaned_image.png (background removed image)
 
 ## 📁 Folder Structure
-css
 
 Photo-Text-to-Simple-3D-Model/
 ├── main.py
@@ -53,13 +50,6 @@ Photo-Text-to-Simple-3D-Model/
 ├── outputs/
 └── README.md
 
-## 🧹 Recommended .gitignore
-Create a .gitignore file with:
 
-venv/
-__pycache__/
-*.pyc
-outputs/
-
-##👨‍💻 Author
+## 👨‍💻 Author
 Abhinav Yadav
