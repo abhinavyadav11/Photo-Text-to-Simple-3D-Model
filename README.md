@@ -1,33 +1,27 @@
-# 🧱 3D Model Generator from Text or Image
+# 🧠 Photo/Text to Simple 3D Model
 
-This project generates a basic 3D model (`.obj` or `.ply`) from either:
-- A text prompt like `"a small toy car"`
-- An image with a clear object
-
-It uses OpenAI’s Shap-E model and other open-source libraries.
+This project converts either a **text prompt** (e.g., "a red toy car") or a **photo** into a simple 3D object (`.obj`, `.ply` format) using AI. It uses [Salesforce BLIP](https://github.com/salesforce/BLIP) for image captioning and [Shap-E](https://github.com/openai/shap-e) from OpenAI for 3D generation.
 
 ---
 
-## 🧠 Features
+## 🔧 Features
 
-- Accepts text or image input
-- Removes background from image (using rembg)
-- Generates `.obj` and `.ply` files
-- Output can be opened in Blender or any 3D viewer
+- ✅ Generate 3D model from **text prompts**
+- ✅ Generate 3D model from **photos** (via automatic captioning)
+- ✅ Supports background removal from image before processing
+- ✅ Outputs in `.obj` and `.ply` formats
 
 ---
 
-## 🚀 How to Run
-
-1. Clone and install dependencies:
+## 📦 Installation
 
 ```bash
-python -m venv venv
-source venv/bin/activate 
+git clone https://github.com/abhinavyadav11/Photo-Text-to-Simple-3D-Model
+cd Photo-Text-to-Simple-3D-Model
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-
-# Run with a text prompt:
-python main.py --text "a small red toy truck"
-
-# Run with an image input:
-python main.py --image examples/input_image.jpg
