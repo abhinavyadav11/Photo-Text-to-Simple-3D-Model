@@ -2,6 +2,8 @@
 
 This project converts either a text prompt (e.g., "a red toy car") or a photo into a simple 3D object (.obj, .ply format) using AI. It uses Salesforce BLIP for image captioning and Shap-E from OpenAI for 3D generation.
 
+<img width="1256" alt="Screenshot 2025-05-06 at 5 12 26 PM" src="https://github.com/user-attachments/assets/5563a679-23ee-4a26-9a08-0fc70f1f24b1" />
+
 ## 🔧 Features
 
 ✅ Generate 3D model from text prompts  
